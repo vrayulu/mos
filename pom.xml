@@ -59,7 +59,7 @@
 
 		<!-- license header file -->
 		<license.header>${basedir}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
-		<buildNumber.properties>${basedir}/src/main/resources/buildNumber.properties</buildNumber.properties>
+		<buildNumber.properties>${basedir}/buildNumber.properties</buildNumber.properties>
 		
 		<git.location>https://github.com/vrayulu/mos.git</git.location>
 		<git.tagBase>https://github.com/vrayulu/mos/tags</git.tagBase>
