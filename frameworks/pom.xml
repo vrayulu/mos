@@ -13,12 +13,12 @@
 	<parent>
 		<groupId>com.broadridge.mos</groupId>
 		<artifactId>mos-parent</artifactId>
-		<version>4.3</version>
+		<version>4.4-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 	</parent>
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>framework-parent</artifactId>
-	<version>4.3</version>
+	<version>4.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>MOS Frameworks Parent</name>
 
