@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
 <!--
+    Copyright(C) 2014 - 2015, Developed by Broadridge Financial Solutions (India) Pvt. Ltd. All rights reserved.
+	This file is part of MOS Parent.
 
-    Copyright(C) 2013 - 2014, Developed by KPISOFT PTE. LTD. All rights reserved.
-    This file is part of EPM Parent.
-    
-    The intellectual and technical concepts contained herein may be covered 
-    by patents, patents in process, and are protected by trade secret or 
-    copyright law. Any unauthorized use of this code without prior approval 
-    from KPISOFT PTE. LTD. is prohibited.
-
+	The intellectual and technical concepts contained herein may be covered 
+	by patents, patents in process, and are protected by trade secret or 
+	copyright law. Any unauthorized use of this code without prior approval 
+	from Broadridge Financial Solutions (India) Pvt. Ltd. is prohibited.
 -->
 
 <!DOCTYPE module PUBLIC
@@ -16,20 +14,6 @@
           "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 
 <!--
-
-  Checkstyle configuration that checks the sun coding conventions from:
-
-    - the Java Language Specification at
-      http://java.sun.com/docs/books/jls/second_edition/html/index.html
-
-    - the Sun Code Conventions at http://java.sun.com/docs/codeconv/
-
-    - the Javadoc guidelines at
-      http://java.sun.com/j2se/javadoc/writingdoccomments/index.html
-
-    - the JDK Api documentation http://java.sun.com/j2se/docs/api/index.html
-
-    - some best practices
 
   Checkstyle is very configurable. Be sure to read the documentation at
   http://checkstyle.sf.net (or in your downloaded distribution).
@@ -113,16 +97,16 @@
         <!-- Checks for imports                              -->
         <!-- See http://checkstyle.sf.net/config_import.html -->
         <module name="AvoidStarImport"/>
-        <module name="IllegalImport"/> <!-- defaults to sun.* packages -->
+        <module name="IllegalImport"/> 
         <module name="RedundantImport"/>
         <module name="UnusedImports"/>
 
 
         <!-- Checks for Size Violations.                    -->
         <!-- See http://checkstyle.sf.net/config_sizes.html -->
-        <!-- <module name="LineLength">
-        <property name="max" value="190"/>
-        </module>-->
+        <module name="LineLength">
+        	<property name="max" value="120"/>
+        </module>
         <!--<module name="MethodLength"/>-->
         <!--<module name="ParameterNumber"/> -->
 
