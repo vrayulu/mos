@@ -13,7 +13,7 @@
 	<parent>
 		<groupId>com.broadridge.mos</groupId>
 		<artifactId>mos-parent</artifactId>
-		<version>5.0</version>
+		<version>5.1-SNAPSHOT</version>
 		<relativePath>../../..</relativePath>
 	</parent>
 	<artifactId>user-mgr</artifactId>
