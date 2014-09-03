@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>mos-parent</artifactId>
-	<version>2.4-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>MOS Parent</name>
 
@@ -67,8 +68,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:${git.location}</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 
 	<modules>
 		<!-- Core frameworks -->
@@ -162,7 +162,7 @@
 							</group>
 							<group>
 								<title>Core Frameworks</title>
-								<packages>com.canopus*</packages>
+								<packages>com.broadridge.mos.frameworks.*</packages>
 							</group>
 						</groups>
 					</configuration>
@@ -186,15 +186,11 @@
 						<target>1.6</target>
 					</configuration>
 				</plugin>
-				<plugin>
-		          	<groupId>org.apache.maven.plugins</groupId>
-          			<artifactId>maven-scm-plugin</artifactId>
-          			<version>1.9.1</version>
-        		</plugin>
+
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-release-plugin</artifactId>
-					<version>2.5</version>
+					<version>2.4.1</version>
 					<configuration>
 						<tagBase>${git.tagBase}</tagBase>
 						<tagNameFormat>v@{project.version}</tagNameFormat>
