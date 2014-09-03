@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>mos-parent</artifactId>
-	<version>4.3-SNAPSHOT</version>
+	<version>4.3</version>
 	<packaging>pom</packaging>
 	<name>MOS Parent</name>
 
@@ -66,7 +66,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:${git.location}</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>v4.3</tag>
   </scm>
 
 	<modules>
