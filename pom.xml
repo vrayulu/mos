@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>mos-parent</artifactId>
-	<version>Release1</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>MOS Parent</name>
 
@@ -59,7 +60,7 @@
 
 		<!-- license header file -->
 		<license.header>${basedir}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
-		<buildNumber.properties>${basedir}/buildNumber.properties</buildNumber.properties>
+		<buildNumber.properties>${basedir}/src/main/resources/buildNumber.properties</buildNumber.properties>
 		
 		<git.location>https://github.com/vrayulu/mos</git.location>
 		<git.tagBase>https://github.com/vrayulu/mos/tags</git.tagBase>
@@ -67,8 +68,7 @@
 	
 	<scm>
 		<developerConnection>scm:git:${git.location}</developerConnection>
-	  <tag>ReleaseTag1</tag>
-  </scm>
+	</scm>
 
 	<modules>
 		<!-- Core frameworks -->
