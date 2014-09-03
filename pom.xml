@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>mos-parent</artifactId>
-	<version>4.2-SNAPSHOT</version>
+	<version>4.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>MOS Parent</name>
 

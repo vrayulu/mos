@@ -15,7 +15,7 @@
     <parent>
 		<groupId>com.broadridge.mos</groupId>
 		<artifactId>mos-parent</artifactId>
-		<version>4.2-SNAPSHOT</version>
+		<version>4.3-SNAPSHOT</version>
 		<relativePath>../../..</relativePath>
 	</parent>
     <artifactId>user-mgr-impl</artifactId>
