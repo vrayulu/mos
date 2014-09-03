@@ -1,0 +1,38 @@
+<!--
+    Copyright(C) 2014 - 2015, Developed by Broadridge Financial Solutions (India) Pvt. Ltd. All rights reserved.
+	This file is part of MOS Parent.
+
+	The intellectual and technical concepts contained herein may be covered 
+	by patents, patents in process, and are protected by trade secret or 
+	copyright law. Any unauthorized use of this code without prior approval 
+	from Broadridge Financial Solutions (India) Pvt. Ltd. is prohibited.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.broadridge.mos</groupId>
+		<artifactId>mos-parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	<groupId>com.broadridge.mos</groupId>
+	<artifactId>framework-parent</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>MOS Frameworks Parent</name>
+
+	<inceptionYear>2014 - 2015</inceptionYear>
+	<organization>
+		<name>Broadridge Financial Solutions (India) Pvt. Ltd.</name>
+		<url>http://www.broadridge.com</url>
+	</organization>
+	
+	<properties>
+		<license.header>${project.parent.relativePath}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
+    </properties>
+    	
+	<modules>
+	</modules>
+</project>

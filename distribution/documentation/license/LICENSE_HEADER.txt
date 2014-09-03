@@ -1,0 +1,7 @@
+Copyright(C) ${year}, Developed by {holder>} All rights reserved.
+This file is part of ${name}.
+
+The intellectual and technical concepts contained herein may be covered 
+by patents, patents in process, and are protected by trade secret or 
+copyright law. Any unauthorized use of this code without prior approval 
+from {holder} is prohibited.
