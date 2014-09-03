@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
     Copyright(C) 2014 - 2015, Developed by Broadridge Financial Solutions (India) Pvt. Ltd. All rights reserved.
 	This file is part of MOS Parent.
@@ -7,24 +8,22 @@
 	copyright law. Any unauthorized use of this code without prior approval 
 	from Broadridge Financial Solutions (India) Pvt. Ltd. is prohibited.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
 		<groupId>com.broadridge.mos</groupId>
 		<artifactId>mos-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
-		<relativePath>../..</relativePath>
+		<version>Release1</version>
+		<relativePath>../../..</relativePath>
 	</parent>
     <artifactId>user-mgr-impl</artifactId>
     <packaging>jar</packaging>
     <name>User Manager Impl</name>
     <url>http://canopusconsulting.com</url>
 
-    <properties></properties>
+    <properties />
 
     <dependencies>
         <dependency>
