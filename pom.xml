@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.broadridge.mos</groupId>
 	<artifactId>mos-parent</artifactId>
-	<version>5.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>MOS Parent</name>
 
@@ -54,22 +55,21 @@
 		<mvn.findbugs.version>1.0</mvn.findbugs.version>
 		
 		<!-- GIT location and tag base -->
-		<git.location>https://github.com/vrayulu/mos.git</git.location>
-		<git.tagBase>https://github.com/vrayulu/mos/tags</git.tagBase>
+		<git.location>https://github.com/ACCOUNT_NAME/PROJECT_NAME.git</git.location>
+		<git.tagBase>https://github.com/ACCOUNT_NAME/PROJECT_NAME/tags</git.tagBase>
 
 		<!-- checkstyle url -->
 		<checkstyle.url>google_checks.xml</checkstyle.url>
 
 		<!-- license header file -->
-		<license.header>${project.parent.relativePath}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
+		<license.header>${basedir}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
 		<buildNumber.properties>${basedir}/buildNumber.properties</buildNumber.properties>
 		
 	</properties>
 	
 	<scm>
 		<developerConnection>scm:git:${git.location}</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+	</scm>
 
 	<modules>
 		<!-- Core frameworks -->
