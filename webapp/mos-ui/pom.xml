@@ -27,6 +27,7 @@
 		<spring.version>3.2.2.RELEASE</spring.version>
 		<org.springframework.security.version>3.1.2.RELEASE</org.springframework.security.version>
 		<license.header>${project.parent.relativePath}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
+		<buildNumber.properties>${project.parent.relativePath}/buildNumber.properties</buildNumber.properties>
 	</properties>
 
 	<dependencies>

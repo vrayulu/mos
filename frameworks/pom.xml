@@ -31,6 +31,7 @@
 	
 	<properties>
 		<license.header>${project.parent.relativePath}/distribution/documentation/license/LICENSE_HEADER.txt</license.header>
+		<buildNumber.properties>${project.parent.relativePath}/buildNumber.properties</buildNumber.properties>
     </properties>
     	
 	<modules>
