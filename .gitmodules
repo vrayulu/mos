@@ -1,3 +1,6 @@
 [submodule "videojs-flash"]
 	path = videojs-flash
 	url = https://github.com/videojs/videojs-flash.git
+[submodule "test"]
+	path = test
+	url = https://github.com/vrayulu/test.git
