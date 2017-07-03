@@ -1,4 +1,4 @@
 mos
 ===
 
-Test Project
+Test Project with submodules
